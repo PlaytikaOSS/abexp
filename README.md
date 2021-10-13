@@ -26,7 +26,7 @@ including bayesian generalized linear model (GLM).
 Installation
 ------------
 
-This library is distributed on [PyPI](https://pypi.org/) and
+This library is distributed on [PyPI](https://pypi.org/project/abexp/) and
 can be installed with ``pip``. The latest release is version ``0.0.1``.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -34,7 +34,7 @@ $ pip install abexp
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The command above will automatically install all the dependencies listed in ``requirements.txt``. Please visit the
-[installation](https://github.com/PlaytikaResearch/abexp)
+[installation](https://playtikaresearch.github.io/abexp/installation.html)
 page for more details.
 
 <br/>
@@ -64,9 +64,9 @@ sample_size = SampleSize.ssd_prop(prop_contr=c, prop_treat=t)  # minimum sample 
 Documentation
 -------------
 For more information please read the full
-[documentation](https://github.com/PlaytikaResearch/abexp)
+[documentation](https://playtikaresearch.github.io/abexp/abexp.html)
 and
-[tutorials](https://github.com/PlaytikaResearch/abexp).
+[tutorials](https://playtikaresearch.github.io/abexp/tutorials.html).
 
 <br/>
 

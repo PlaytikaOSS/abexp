@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'abexp'
-copyright = '2021, Playtika Ltd.'
+copyright = '2021, Playtika Ltd'
 author = 'Playtika Ltd.'
 
 # The full version, including alpha/beta/rc tags
