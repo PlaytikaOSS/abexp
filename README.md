@@ -18,7 +18,7 @@ including bayesian generalized linear model (GLM).
 
 <br/>
 
-![A/B testing experiment flow](docs/src/img/experiment_flow.png)
+![A/B testing experiment flow](https://github.com/PlaytikaResearch/abexp/blob/main/docs/src/img/experiment_flow.png)
 
 <br/>
 
