@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>PyABtest documentation &mdash; abexp 0.0.1 documentation</title>
+  <title>ABexp &mdash; abexp 0.0.1 documentation</title>
   
 
   
@@ -42,7 +42,8 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="ABexp" href="abexp.html" /> 
+    <link rel="next" title="Installation" href="installation.html" />
+    <link rel="prev" title="PyABtest documentation" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -56,7 +57,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> abexp
+            <a href="index.html" class="icon icon-home"> abexp
           
 
           
@@ -87,8 +88,8 @@
               
             
             
-              <ul>
-<li class="toctree-l1"><a class="reference internal" href="abexp.html">ABexp</a></li>
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">ABexp</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API documentation</a></li>
@@ -110,7 +111,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">abexp</a>
+          <a href="index.html">abexp</a>
         
       </nav>
 
@@ -141,15 +142,15 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>PyABtest documentation</li>
+      <li>ABexp</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/abexp.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -186,21 +187,34 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="pyabtest-documentation">
-<h1>PyABtest documentation<a class="headerlink" href="#pyabtest-documentation" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="contents">
-<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="abexp.html">ABexp</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="api.html">API documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="help.html">Help</a></li>
-<li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
-</ul>
-</div>
+<div class="section" id="abexp">
+<h1>ABexp<a class="headerlink" href="#abexp" title="Permalink to this headline">¶</a></h1>
+<a class="reference external image-reference" href="https://img.shields.io/badge/build-passing-brightgreen"><img alt="Build Status" src="https://img.shields.io/badge/build-passing-brightgreen" /></a>
+<a class="reference external image-reference" href="https://img.shields.io/badge/docs-passing-brightgreen"><img alt="Docs Status" src="https://img.shields.io/badge/docs-passing-brightgreen" /></a>
+<a class="reference external image-reference" href="https://img.shields.io/badge/coverage-95%25-green"><img alt="Code coverage" src="https://img.shields.io/badge/coverage-95%25-green" /></a>
+<a class="reference external image-reference" href="https://img.shields.io/badge/version-0.0.1-blue"><img alt="Development Status" src="https://img.shields.io/badge/version-0.0.1-blue" /></a>
+<a class="reference external image-reference" href="https://img.shields.io/badge/license-MIT-blue"><img alt="License Status" src="https://img.shields.io/badge/license-MIT-blue" /></a>
+<p>A/B testing is a methodology based on user experience which consists in comparing two or more variants of a single
+variable and determining which one performs better according to predefined criteria. It includes wide applications in
+the field of statistics.</p>
+<p>Many industries have been using A/B test to optimize business processes and user experience. There are existing tools
+and/or public libraries available to address this problem (mainly implemented in <code class="docutils literal notranslate"><span class="pre">R</span></code>, fewer in <code class="docutils literal notranslate"><span class="pre">Python</span></code>). However,
+they typically hide the statistical techniques running under the hood and they are mostly focused on a very specific
+aspect of the end-to-end experiment flow (e.g. a tool for post A/B test analysis which uses frequentist statistical
+techniques).</p>
+<p>A/B testing is a sensitive and critical aspect within Playtika organization. This pushed us to tackled this problem
+drawing attention to today’s state-of-the art techniques.</p>
+<p><strong>ABexp</strong>  is a <code class="docutils literal notranslate"><span class="pre">Python</span></code> library which aims to support users along the entire end-to-end A/B test
+experiment flow (see picture below). It contains A/B testing modules which use both frequentist and bayesian
+statistical approaches including bayesian generalized linear model (GLM).</p>
+<a class="reference internal image-reference" href="_images/experiment_flow.png"><img alt="A/B experiment flow end-to-end" src="_images/experiment_flow.png" style="width: 1000px;" /></a>
+<p>ABexp also provides detailed documentation and tutorials in order to help and guide users in running A/B test
+experiments.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>ABexp is a generic library that can be directly used by analysts and data scientists as standalone product when
+imported in  <code class="docutils literal notranslate"><span class="pre">Jupyter</span> <span class="pre">Notebook</span></code> or <code class="docutils literal notranslate"><span class="pre">Python</span></code> projects. It can also be used in the background of more complex
+products that expose its functionalities through a user interface.</p>
 </div>
 </div>
 
@@ -210,7 +224,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="abexp.html" class="btn btn-neutral float-right" title="ABexp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="PyABtest documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
