@@ -41,7 +41,7 @@ build/*
 dist/*
 sdist/*
 docs/_rst/*
-docs/build/doctrees
+docs/build/*
 cover/*
 MANIFEST
 
