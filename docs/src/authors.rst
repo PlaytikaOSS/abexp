@@ -1,3 +1,3 @@
 .. _authors:
 
-.. include:: ../AUTHORS.rst
+.. include:: ../../AUTHORS.rst
