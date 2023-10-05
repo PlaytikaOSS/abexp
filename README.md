@@ -18,7 +18,7 @@ including bayesian generalized linear model (GLM).
 
 <br/>
 
-![A/B testing experiment flow](https://github.com/PlaytikaResearch/abexp/blob/main/docs/src/img/experiment_flow.png)
+![A/B testing experiment flow](https://github.com/PlaytikaOSS/abexp/blob/main/docs/src/img/experiment_flow.png)
 
 <br/>
 
@@ -34,7 +34,7 @@ $ pip install abexp
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The command above will automatically install all the dependencies listed in ``requirements.txt``. Please visit the
-[installation](https://playtikaresearch.github.io/abexp/installation.html)
+[installation](https://playtikaoss.github.io/abexp/installation.html)
 page for more details.
 
 <br/>
@@ -64,19 +64,19 @@ sample_size = SampleSize.ssd_prop(prop_contr=c, prop_treat=t)  # minimum sample 
 Documentation
 -------------
 For more information please read the full
-[documentation](https://playtikaresearch.github.io/abexp/abexp.html)
+[documentation](https://playtikaoss.github.io/abexp/abexp.html)
 and
-[tutorials](https://playtikaresearch.github.io/abexp/tutorials.html).
+[tutorials](https://playtikaoss.github.io/abexp/tutorials.html).
 
 <br/>
 
 Info for developers
 -------------------
 
-The source code of the project is available on [GitHub](https://github.com/PlaytikaResearch/abexp).
+The source code of the project is available on [GitHub](https://github.com/playtikaoss/abexp).
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$ git clone https://github.com/PlaytikaResearch/abexp.git
+$ git clone https://github.com/PlaytikaOSS/abexp.git
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can install the library and the dependencies with one of the following commands:
